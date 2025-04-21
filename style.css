@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: white;
+    font-family: sans-serif;
+  }
+  body {
+    margin: 0;
+    overflow: hidden;
+    background-image: url('./img/images.png'); /* Caminho para sua imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center center; /* Centraliza a imagem */
+    background-attachment: fixed; /* A imagem fica fixa ao rolar a página */
+  }
+  
+  #pato {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 200px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    cursor: pointer;
+    transition: transform 0.2s ease, top 0.5s ease, left 0.5s ease;
+    background: transparent; /* Adiciona esta linha para garantir fundo transparente */
+  }
+  
+  .frase {
+    position: absolute;
+    font-size: 18px;
+    background: yellow;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    animation: fadeOut 3s forwards;
+    z-index: 999;
+  }
+  
+  @keyframes fadeOut {
+    0% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(-30px); }
+  }
+  
+  
