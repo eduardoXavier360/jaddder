@@ -44,11 +44,11 @@ body {
   
   button {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 20px;
+    left: 80px;
     padding: 10px 20px;
-    font-size: 16px;
-    background-color: #007BFF;
+    font-size: 40px;
+    background-color: black; /* Cor de fundo do botão */
     color: white;
     border: none;
     border-radius: 5px;
